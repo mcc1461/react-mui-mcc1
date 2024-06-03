@@ -95,7 +95,6 @@ const MuiNavbar = () => {
 export default MuiNavbar;
 {
   /*
-  // Alternative way to write the same code
 
 const MuiNavbar = () => {
   return (
