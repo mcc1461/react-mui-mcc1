@@ -8,14 +8,20 @@ const MuiBreadcrumbs = () => {
             aria-label="breadcrumb"
             separator={"||" || "~" || <NavigateNextIcon fontSize="small"/>}
             maxItems={3}
-            itemsAfterCollapse={0}
+            itemsAfterCollapse={2}
             itemsBeforeCollapse={1}
             >
             <Link underline="hover" color="inherit" href="/">
                 Home
             </Link>
-            <Link underline="hover" color="inherit" href="/getting-started/installation/">
+            <Link underline="hover" color="inherit" href="/">
                 Catalog
+            </Link>
+            <Link underline="hover" color="inherit" href="/">
+                Main
+            </Link>
+            <Link underline="hover" color="inherit" href="/getting-started/installation/">
+                Special
             </Link>
             <Link underline="hover" color="inherit" href="/getting-started/installation/">
                 Accessories 

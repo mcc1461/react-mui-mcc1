@@ -1,5 +1,6 @@
 import './App.css';
 import MuiBreadcrumbs from './components/MuiBreadcrumbs';
+import MuiDrawer from './components/MuiDrawer';
 // import { MuiLink } from './components/MuiLink';
 
 import MuiNavbar from './components/MuiNavbar';
@@ -35,6 +36,7 @@ function App() {
       <MuiNavbar />
       {/* <MuiLink /> */}
       <MuiBreadcrumbs />
+      <MuiDrawer />
       
 
     </div>
