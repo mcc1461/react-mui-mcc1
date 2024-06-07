@@ -56,7 +56,7 @@ function App() {
       {/* <MuiList2 /> */}
       {/* <MuiChip /> */}
       {/* <MuiTooltip /> */}
-      <MuiTable />
+      <MuiTable/>
 
     </div>
   );
